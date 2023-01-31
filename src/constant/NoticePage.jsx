@@ -53,18 +53,6 @@ const NoticePage = () => {
           </S.CardDescription>
           <S.CardButton>Click</S.CardButton>
         </S.Card>
-        <S.Card>
-          <S.CardTitle>Study5</S.CardTitle>
-          <S.CardSubtitle>CardSubtitle</S.CardSubtitle>
-          <S.CardDescription>
-            Card Description BlaBlaBla Card Description BlaBlaBla Card
-            Description BlaBlaBla Card Description BlaBlaBla Card Description
-            BlaBlaBla Card Description BlaBlaBla Card Description BlaBlaBla Card
-            Description BlaBlaBla Card Description BlaBlaBla Card Description
-            BlaBlaBla Card Description BlaBlaBla Card Description BlaBlaBla
-          </S.CardDescription>
-          <S.CardButton>Click</S.CardButton>
-        </S.Card>
       </S.CardSection>
     </S.Wrapper>
   );

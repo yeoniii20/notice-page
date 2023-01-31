@@ -4,11 +4,13 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 1920px;
+  margin-top: 100px;
+  margin-bottom: 300px;
 `;
 
 export const Title = styled.h1`
-  color: pink;
   background-color: grey;
+  color: pink;
 `;
 
 export const CardSection = styled.div`
@@ -22,20 +24,19 @@ export const CardSection = styled.div`
 export const Card = styled.div`
   display: flex;
   background-color: grey;
-  /* max-width: 30px; */
   border-radius: 10px;
-  max-width: 350px;
-  min-height: 500px;
+  max-width: 800px;
+  height: 500px;
   flex-direction: column;
 `;
 
-export const CardTitle = styled.div`
+export const CardTitle = styled.h1`
   color: pink;
   font-size: 40px;
   margin-top: 10px;
 `;
 
-export const CardSubtitle = styled.div`
+export const CardSubtitle = styled.h2`
   color: pink;
   font-size: 30px;
   margin-top: 10px;
