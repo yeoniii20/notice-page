@@ -3,7 +3,6 @@ import * as S from "./NoticeDetailPage.style";
 const NoticeDetailPage = () => {
   return (
     <S.Wrapper>
-      <S.Title>NoticeDetailPage</S.Title>
       <S.CardSection>
         <S.Card>
           <S.CardTitle>DetailPage</S.CardTitle>
