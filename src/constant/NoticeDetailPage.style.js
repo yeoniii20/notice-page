@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 1920px;
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 300px;
 `;
 
@@ -19,6 +19,9 @@ export const CardSection = styled.div`
   justify-content: center;
   margin-top: 100px;
   gap: 20px;
+  justify-content: flex-start;
+  padding-left: 32px;
+  padding-right: 32px;
 `;
 
 export const Card = styled.div`
