@@ -49,7 +49,7 @@ const NoticePage = () => {
             <S.CardButton>Click</S.CardButton>
           </S.Card>
         </S.CardContainer>
-        <S.CardContainer>
+        {/* <S.CardContainer>
           <S.Card>
             <S.CardTitle>Study4</S.CardTitle>
             <S.CardSubtitle>CardSubtitle</S.CardSubtitle>
@@ -78,7 +78,7 @@ const NoticePage = () => {
             </S.CardDescription>
             <S.CardButton>Click</S.CardButton>
           </S.Card>
-        </S.CardContainer>
+        </S.CardContainer> */}
       </S.CardSection>
     </S.Wrapper>
   );

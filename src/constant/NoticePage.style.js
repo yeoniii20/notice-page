@@ -2,39 +2,36 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: flex;
-  width: 1300px;
+  /* width: 1920px; */
   background-color: lightgray;
 `;
 
 export const CardSection = styled.div`
   display: flex;
-  background-color: yellow;
+  margin: auto;
   padding-bottom: 30px;
-  width: 1300px;
 `;
 
 export const CardContainer = styled.div`
   margin-top: 20px;
-  display: flex;
+  /* display: flex; */
   /* flex-direction: row; */
-  justify-content: center;
-  background-color: skyblue;
+  /* justify-content: center; */
   margin-top: 100px;
   gap: 20px;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   padding-left: 32px;
   padding-right: 32px;
-  width: 1200px;
 `;
 
 export const Card = styled.div`
-  display: flex;
+  /* display: flex; */
   background-color: grey;
-  /* max-width: 30px; */
+  max-width: 400px;
   border-radius: 10px;
   min-width: 350px;
   min-height: 500px;
-  flex-direction: column;
+  /* flex-direction: column; */
 `;
 
 export const CardTitle = styled.div`
