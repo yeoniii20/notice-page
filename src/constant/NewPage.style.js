@@ -1,17 +1,28 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div``;
+export const Wrapper = styled.div`
+  background-color: lightgray;
+`;
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: lightgray;
   padding: 100px 32px;
 `;
 
-export const Form = styled.div``;
+export const Form = styled.div`
+  display: flex;
+  max-width: 700px;
+  flex-wrap: wrap; ;
+`;
 
-export const SubForm = styled.div``;
+export const SubForm = styled.div`
+  display: flex;
+  flex-direction: column;
+  &:nth-child(2n + 1) {
+    margin-right: 85px;
+  }
+`;
 
 export const SubmitButton = styled.button`
   width: 150px;
