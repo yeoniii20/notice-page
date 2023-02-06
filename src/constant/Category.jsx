@@ -19,6 +19,9 @@ const Category = () => {
         <S.Category>
           <S.CategoryTitle>Category5</S.CategoryTitle>
         </S.Category>
+        <S.Category>
+          <S.CategoryTitle>Category6</S.CategoryTitle>
+        </S.Category>
       </S.Container>
     </S.Wrapper>
   );

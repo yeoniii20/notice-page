@@ -5,15 +5,19 @@ export const Wrapper = styled.div``;
 export const Container = styled.div`
   display: flex;
   background-color: lightgray;
-  padding: 40px 32px;
-  justify-content: space-between;
+  padding: 100px 32px;
+  column-gap: 35px;
 `;
 
-export const Category = styled.div`
+export const Category = styled.button`
   background-color: gray;
-  border-radius: 300px;
+  border-radius: 10px;
+  border-color: transparent;
+  width: 200px;
+  height: 130px;
 `;
 
-export const CategoryTitle = styled.h1`
+export const CategoryTitle = styled.h3`
   color: pink;
+  padding: 0px 7px;
 `;
