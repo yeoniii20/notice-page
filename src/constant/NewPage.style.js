@@ -14,14 +14,14 @@ export const Form = styled.div``;
 export const SubForm = styled.div``;
 
 export const SubmitButton = styled.button`
-  width: 100px;
-  height: 40px;
-  align-self: flex-end;
+  width: 150px;
+  height: 50px;
   margin-top: 20px;
   border-radius: 100px;
   border-color: transparent;
   background-color: gray;
-  color: pink;
+  color: #eaeaea;
+  font-size: large;
 
   &:hover {
     background-color: #747474;
@@ -35,16 +35,19 @@ export const InputBox = styled.input`
   background-color: #eaeaea;
   border-radius: 20px;
   border-color: transparent;
+  margin-top: 8px;
+  margin-bottom: 15px;
 `;
 
 export const TitleInputBox = styled.input`
   display: flex;
-
   width: 700px;
   height: 100px;
   background-color: #eaeaea;
   border-radius: 20px;
   border-color: transparent;
+  margin-top: 8px;
+  margin-bottom: 15px;
 `;
 
 export const DescriptionInputBox = styled.input`
@@ -54,6 +57,8 @@ export const DescriptionInputBox = styled.input`
   background-color: #eaeaea;
   border-radius: 20px;
   border-color: transparent;
+  margin-top: 8px;
+  margin-bottom: 15px;
 `;
 
 export const Category = styled.div`

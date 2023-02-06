@@ -17,7 +17,7 @@ export const Category = styled.button`
   height: 130px;
 `;
 
-export const CategoryTitle = styled.h3`
-  color: pink;
+export const CategoryTitle = styled.h2`
+  color: #eaeaea;
   padding: 0px 7px;
 `;

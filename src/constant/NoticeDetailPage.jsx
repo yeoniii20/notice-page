@@ -14,7 +14,6 @@ const NoticeDetailPage = () => {
             Description BlaBlaBla Card Description BlaBlaBla Card Description
             BlaBlaBla Card Description BlaBlaBla Card Description BlaBlaBla
           </S.CardDescription>
-          <S.CardButton>Click</S.CardButton>
         </S.Card>
       </S.CardSection>
     </S.Wrapper>

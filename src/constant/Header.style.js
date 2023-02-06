@@ -12,22 +12,22 @@ export const Container = styled.div`
 
 export const HeaderLogo = styled.h1`
   display: flex;
-  color: pink;
+  color: #eaeaea;
 `;
 
 export const Title = styled.div`
   display: flex;
-  color: pink;
+  color: #eaeaea;
   column-gap: 70px;
 `;
 
 export const HeaderButton = styled.button`
-  color: pink;
+  color: #eaeaea;
   background-color: gray;
   border-color: transparent;
   align-items: center;
 `;
 
 export const HeaderTitle = styled.h1`
-  color: pink;
+  color: #eaeaea;
 `;

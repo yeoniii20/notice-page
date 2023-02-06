@@ -29,19 +29,19 @@ export const Card = styled.div`
 `;
 
 export const CardTitle = styled.div`
-  color: pink;
+  color: #eaeaea;
   font-size: 40px;
   margin-top: 10px;
 `;
 
 export const CardSubtitle = styled.div`
-  color: pink;
+  color: #eaeaea;
   font-size: 30px;
   margin-top: 10px;
 `;
 
 export const CardDescription = styled.div`
-  color: pink;
+  color: #eaeaea;
   font-size: 18px;
   margin-top: 70px;
   padding-left: 5px;
@@ -54,7 +54,7 @@ export const CardButton = styled.button`
   height: 50px;
   border-radius: 10px;
   border-color: transparent;
-  background-color: pink;
+  background-color: #eaeaea;
   justify-content: flex-end;
   margin-top: 30px;
   align-self: center;
