@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Category from "./constant/Category";
 import Header from "./constant/Header";
@@ -9,10 +10,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Category />
-      <NewPage />
-      <NoticePage />
-      <NoticeDetailPage />
+      <Routes>
+        <Route path="/" element={<Category />} />
+        <Route path="/newPage" element={<NewPage />} />
+        <Route path="/noticePage" element={<NoticePage />} />
+        <Route path="/noticeDetailPage" element={<NoticeDetailPage />} />
+      </Routes>
     </div>
   );
 }
