@@ -14,22 +14,27 @@ const Header = () => {
         <S.Title>
           <S.HeaderButton>
             <Link to="/newPage">
-              <S.HeaderTitle>Menu1</S.HeaderTitle>
-            </Link>
-          </S.HeaderButton>
-          <S.HeaderButton>
-            <Link to="/NoticePage">
-              <S.HeaderTitle>Menu2</S.HeaderTitle>
-            </Link>
-          </S.HeaderButton>
-          <S.HeaderButton>
-            <Link to="/NoticeDetailPage">
-              <S.HeaderTitle>Menu3</S.HeaderTitle>
+              <S.HeaderTitle>구인</S.HeaderTitle>
             </Link>
           </S.HeaderButton>
           <S.HeaderButton>
             <Link to="/newPage">
-              <S.HeaderTitle>Menu4</S.HeaderTitle>
+              <S.HeaderTitle>구직</S.HeaderTitle>
+            </Link>
+          </S.HeaderButton>
+          <S.HeaderButton>
+            <Link to="/noticePage">
+              <S.HeaderTitle>게시판</S.HeaderTitle>
+            </Link>
+          </S.HeaderButton>
+          <S.HeaderButton>
+            <Link to="/teacherRegistration">
+              <S.HeaderTitle>선생님 등록</S.HeaderTitle>
+            </Link>
+          </S.HeaderButton>
+          <S.HeaderButton>
+            <Link to="/noticeDetailPage">
+              <S.HeaderTitle>My Page</S.HeaderTitle>
             </Link>
           </S.HeaderButton>
         </S.Title>
