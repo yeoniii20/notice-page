@@ -10,9 +10,24 @@ export const Container = styled.div`
   padding: 0px 32px;
 `;
 
+export const TitleLogo = styled.div`
+  a:link {
+    text-decoration: none;
+  }
+`;
+
 export const HeaderLogo = styled.h1`
   display: flex;
   color: #eaeaea;
+
+  color: #eaeaea;
+
+  &:hover {
+    color: lightgray;
+  }
+  &:active {
+    color: #707070;
+  }
 `;
 
 export const Title = styled.div`
@@ -26,8 +41,19 @@ export const HeaderButton = styled.button`
   background-color: gray;
   border-color: transparent;
   align-items: center;
+
+  a:link {
+    text-decoration: none;
+  }
 `;
 
 export const HeaderTitle = styled.h1`
   color: #eaeaea;
+
+  &:hover {
+    color: lightgray;
+  }
+  &:active {
+    color: #707070;
+  }
 `;
