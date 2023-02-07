@@ -17,7 +17,9 @@ export const Category = styled.button`
   height: 130px;
 `;
 
-export const CategoryTitle = styled.h2`
+export const CategoryTitle = styled.div`
   color: #eaeaea;
   padding: 0px 7px;
+  font-size: 22px;
+  font-weight: 600;
 `;

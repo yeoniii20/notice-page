@@ -5,22 +5,19 @@ const Category = () => {
     <S.Wrapper>
       <S.Container>
         <S.Category>
-          <S.CategoryTitle>Category1</S.CategoryTitle>
+          <S.CategoryTitle>지휘자</S.CategoryTitle>
         </S.Category>
         <S.Category>
-          <S.CategoryTitle>Category2</S.CategoryTitle>
+          <S.CategoryTitle>반주자</S.CategoryTitle>
         </S.Category>
         <S.Category>
-          <S.CategoryTitle>Category3</S.CategoryTitle>
+          <S.CategoryTitle>솔로이스트</S.CategoryTitle>
         </S.Category>
         <S.Category>
-          <S.CategoryTitle>Category4</S.CategoryTitle>
+          <S.CategoryTitle>합창 단원</S.CategoryTitle>
         </S.Category>
         <S.Category>
-          <S.CategoryTitle>Category5</S.CategoryTitle>
-        </S.Category>
-        <S.Category>
-          <S.CategoryTitle>Category6</S.CategoryTitle>
+          <S.CategoryTitle>입시 및 사교육</S.CategoryTitle>
         </S.Category>
       </S.Container>
     </S.Wrapper>
