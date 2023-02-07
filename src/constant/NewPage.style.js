@@ -72,27 +72,7 @@ export const DescriptionInputBox = styled.input`
   margin-bottom: 15px;
 `;
 
-export const Category = styled.div`
-  display: flex;
-  color: gray;
-`;
-
-export const Date = styled.div`
-  display: flex;
-  color: gray;
-`;
-
-export const Member = styled.div`
-  display: flex;
-  color: gray;
-`;
-
-export const Age = styled.div`
-  display: flex;
-  color: gray;
-`;
-
-export const PhoneNumber = styled.div`
+export const InputBoxTitle = styled.div`
   display: flex;
   color: gray;
 `;

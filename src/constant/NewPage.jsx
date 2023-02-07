@@ -6,23 +6,27 @@ const NewPage = () => {
       <S.Container>
         <S.Form>
           <S.SubForm>
-            <S.Category>Category</S.Category>
+            <S.InputBoxTitle>Category</S.InputBoxTitle>
             <S.InputBox></S.InputBox>
           </S.SubForm>
           <S.SubForm>
-            <S.Date>Date</S.Date>
+            <S.InputBoxTitle>Date</S.InputBoxTitle>
             <S.InputBox></S.InputBox>
           </S.SubForm>
           <S.SubForm>
-            <S.Member>Member</S.Member>
+            <S.InputBoxTitle>Member</S.InputBoxTitle>
             <S.InputBox></S.InputBox>
           </S.SubForm>
           <S.SubForm>
-            <S.Age>Age</S.Age>
+            <S.InputBoxTitle>Age</S.InputBoxTitle>
             <S.InputBox></S.InputBox>
           </S.SubForm>
           <S.SubForm>
-            <S.PhoneNumber>PhoneNumber</S.PhoneNumber>
+            <S.InputBoxTitle>Gender</S.InputBoxTitle>
+            <S.InputBox></S.InputBox>
+          </S.SubForm>
+          <S.SubForm>
+            <S.InputBoxTitle>PhoneNumber</S.InputBoxTitle>
             <S.InputBox></S.InputBox>
           </S.SubForm>
           <S.SubForm>

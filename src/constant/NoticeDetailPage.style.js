@@ -9,9 +9,13 @@ export const Wrapper = styled.div`
   /* max-width: 1920px; */
 `;
 
-export const Title = styled.h1`
-  background-color: grey;
-  color: #eaeaea;
+export const Container = styled.div``;
+
+export const Scrap = styled.div`
+  margin-bottom: 10px;
+  text-align: end;
+  padding: 0px 40px;
+  color: #5d5d5d;
 `;
 
 export const CardSection = styled.div`
@@ -22,6 +26,11 @@ export const CardSection = styled.div`
   justify-content: flex-start;
   padding-left: 32px;
   padding-right: 32px;
+`;
+
+export const Title = styled.h1`
+  background-color: grey;
+  color: #eaeaea;
 `;
 
 export const Card = styled.div`
@@ -51,4 +60,5 @@ export const CardDescription = styled.div`
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
+  margin-top: 40px;
 `;

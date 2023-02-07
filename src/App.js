@@ -5,6 +5,7 @@ import Header from "./constant/Header";
 import NewPage from "./constant/NewPage";
 import NoticeDetailPage from "./constant/NoticeDetailPage";
 import NoticePage from "./constant/NoticePage";
+import TeacherRegistration from "./constant/TeacherRegistration";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/newPage" element={<NewPage />} />
         <Route path="/noticePage" element={<NoticePage />} />
         <Route path="/noticeDetailPage" element={<NoticeDetailPage />} />
+        <Route path="/teacherRegistration" element={<TeacherRegistration />} />
       </Routes>
     </div>
   );
