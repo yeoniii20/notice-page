@@ -15,6 +15,7 @@ export const Category = styled.button`
   border-color: transparent;
   width: 200px;
   height: 130px;
+  cursor: pointer;
 `;
 
 export const CategoryTitle = styled.div`
