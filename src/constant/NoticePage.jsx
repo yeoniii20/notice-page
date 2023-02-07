@@ -12,10 +12,8 @@ const NoticePage = () => {
               Card Description BlaBlaBla Card Description BlaBlaBla Card
               Description BlaBlaBla Card Description BlaBlaBla Card Description
               BlaBlaBla Card Description BlaBlaBla Card Description BlaBlaBla
-              Card Description BlaBlaBla Card Description BlaBlaBla Card
-              Description BlaBlaBla Card Description BlaBlaBla Card Description
-              BlaBlaBla
             </S.CardDescription>
+            <S.View>View: 1300</S.View>
             <S.CardButton>Click</S.CardButton>
           </S.Card>
         </S.CardContainer>
@@ -28,9 +26,8 @@ const NoticePage = () => {
               Description BlaBlaBla Card Description BlaBlaBla Card Description
               BlaBlaBla Card Description BlaBlaBla Card Description BlaBlaBla
               Card Description BlaBlaBla Card Description BlaBlaBla Card
-              Description BlaBlaBla Card Description BlaBlaBla Card Description
-              BlaBlaBla
             </S.CardDescription>
+            <S.View>View: 145</S.View>
             <S.CardButton>Click</S.CardButton>
           </S.Card>
         </S.CardContainer>
@@ -43,9 +40,9 @@ const NoticePage = () => {
               Description BlaBlaBla Card Description BlaBlaBla Card Description
               BlaBlaBla Card Description BlaBlaBla Card Description BlaBlaBla
               Card Description BlaBlaBla Card Description BlaBlaBla Card
-              Description BlaBlaBla Card Description BlaBlaBla Card Description
-              BlaBlaBla
+              Description BlaBlaBla
             </S.CardDescription>
+            <S.View>View: 10</S.View>
             <S.CardButton>Click</S.CardButton>
           </S.Card>
         </S.CardContainer>
@@ -58,9 +55,9 @@ const NoticePage = () => {
               Description BlaBlaBla Card Description BlaBlaBla Card Description
               BlaBlaBla Card Description BlaBlaBla Card Description BlaBlaBla
               Card Description BlaBlaBla Card Description BlaBlaBla Card
-              Description BlaBlaBla Card Description BlaBlaBla Card Description
-              BlaBlaBla
+              Description BlaBlaBla
             </S.CardDescription>
+            <S.View>View: 89</S.View>
             <S.CardButton>Click</S.CardButton>
           </S.Card>
         </S.CardContainer>
@@ -71,11 +68,8 @@ const NoticePage = () => {
             <S.CardDescription>
               Card Description BlaBlaBla Card Description BlaBlaBla Card
               Description BlaBlaBla Card Description BlaBlaBla Card Description
-              BlaBlaBla Card Description BlaBlaBla Card Description BlaBlaBla
-              Card Description BlaBlaBla Card Description BlaBlaBla Card
-              Description BlaBlaBla Card Description BlaBlaBla Card Description
-              BlaBlaBla
             </S.CardDescription>
+            <S.View>View: 645</S.View>
             <S.CardButton>Click</S.CardButton>
           </S.Card>
         </S.CardContainer>

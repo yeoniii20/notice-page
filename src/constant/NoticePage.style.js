@@ -47,6 +47,11 @@ export const CardDescription = styled.div`
   padding-left: 5px;
   padding-right: 5px;
   text-align: center;
+  height: 180px;
+`;
+
+export const View = styled.div`
+  color: #eaeaea;
 `;
 
 export const CardButton = styled.button`
@@ -55,7 +60,7 @@ export const CardButton = styled.button`
   border-radius: 10px;
   border-color: transparent;
   background-color: #eaeaea;
-  justify-content: flex-end;
+  align-items: flex-end;
   margin-top: 30px;
   align-self: center;
   color: grey;
